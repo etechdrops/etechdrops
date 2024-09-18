@@ -12,4 +12,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 echo " "
 echo "----------------------------------------"
 echo "#### Copiando zshrc e zshrc_history..."
-cp -p ~/.zshrc ~/.zshrc.bkp && cp -p ~/Code/etechdrops/zshrc.bkp ~/.zshrc
+cp -p ~/.zshrc ~/.zshrc.bkp && cp -p ~/Code/etechdrops/configs/zshrc.bkp ~/.zshrc
