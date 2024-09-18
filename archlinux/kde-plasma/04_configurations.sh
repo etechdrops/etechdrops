@@ -27,8 +27,8 @@ echo " "
 echo "----------------------"
 echo "Copiando o theme Darkula e o profile para Konsole..."
 
-cp -p ~/Code/Personal/etechdrops/configs/konsole/Dracula.colorscheme ~/.local/share/konsole/.
-cp -p ~/Code/Personal/etechdrops/configs/konsole/eTechDrops.profile ~/.local/share/konsole/.
+cp -p ~/Code/etechdrops/configs/konsole/Dracula.colorscheme ~/.local/share/konsole/.
+cp -p ~/Code/etechdrops/configs/konsole/eTechDrops.profile ~/.local/share/konsole/.
 
 echo " "
 echo "----------------------"
