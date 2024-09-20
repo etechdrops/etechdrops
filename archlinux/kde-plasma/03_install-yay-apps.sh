@@ -18,8 +18,9 @@ yay -S --needed --noconfirm \
     droidcam \
     droidcam-obs-plugin \
     v4l2loopback-dc-dkms \
-    google-cloud-cli-gke-gcloud-auth-plugin
-    #fluent-icon-theme-git
+    google-cloud-cli-gke-gcloud-auth-plugin \
+    youtube-music-bin
     #spotify
+    #fluent-icon-theme-git
     #tela-circle-icon-theme-git \
     #orchis-kde-theme-git \
