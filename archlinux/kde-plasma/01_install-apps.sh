@@ -86,4 +86,5 @@ sudo pacman -S --needed \
   gwenview \
   virtualbox \
   virtualbox-guest-iso \
-  virtualbox-guest-utils
+  virtualbox-guest-utils \
+  dosfstools
