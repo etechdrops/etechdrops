@@ -112,7 +112,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/Code/etechdrops/configs/personal_zsh.sh
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Custom aliases
+alias updateMirrors="sudo cp -p /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bkp && sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist"
+alias update="sudo pacman -Suy"
+alias ls="ls -ltrha"
+alias reloadShell="source ~/.zshrc"
